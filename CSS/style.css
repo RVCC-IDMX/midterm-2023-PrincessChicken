@@ -40,16 +40,21 @@ footer {
     font-size: 20px;
     text-align: center;
 }
+
+/*This section changes the color of the even items on my UL*/
+
 #companies ul li:nth-child(even) {
     color: rgb(222, 42, 254);
     align-items: center;
 }
 
+/*This section changes the color of the odd items on my UL*/
 #companies ul li:nth-child(odd) {
     color: rgb(92, 11, 185);
     align-items: center;
 }
 
+/*This section changes the font, font size, and centers the content in "id #companies"*/
 #companies {
     display: flex; 
     flex-direction: column; 
